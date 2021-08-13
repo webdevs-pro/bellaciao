@@ -26,6 +26,7 @@ add_action( 'wp_enqueue_scripts', 'bellaciao_child_enqueue_scripts', 20 );
 
 
 require_once( get_stylesheet_directory() . '/inc/jet-woo-builder-wpml-integration.php');
+require_once( get_stylesheet_directory() . '/inc/admin/admin.php');
 
 
 
