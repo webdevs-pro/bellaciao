@@ -2,7 +2,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-class BI_Admin {
+class BC_Admin {
 
    public function __construct() {
       add_action('admin_menu', array( $this, 'admin_menu' ) );
@@ -30,7 +30,7 @@ class BI_Admin {
    }
 
 }
-new BI_Admin();
+new BC_Admin();
 
 
 
